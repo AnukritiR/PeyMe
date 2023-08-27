@@ -1,0 +1,399 @@
+body{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.section-1{
+height: 90vh;
+background-image: url("Vector 3.svg"), url("man.svg");
+    background-position: bottom, right top;
+    background-repeat: no-repeat;
+    background-color: #f1f5ff;
+    
+
+}
+.nav-bar{
+    display: flex;
+align-items: center;
+margin-left: 7rem;
+}
+.nav-list{
+    display: flex;
+ margin: 3rem;
+ list-style: none;
+ margin-left: 12rem;
+ font-size: 1.2rem;
+font-weight: bold;
+}
+.nav-bar>img{
+    margin-right: 3rem;
+   width: 12rem;
+   height: auto;
+}
+.nav-bar>ul>li> a{
+    text-decoration: none;
+}
+.nav-bar>ul>li{
+    margin-left: 3rem;
+
+}
+.arrow{
+   vertical-align: middle;
+    
+}
+.Sign-In{
+   color: blue;
+   margin-right: 1rem;
+   font-size: 1.1rem;
+   margin-left: 1rem;
+}
+.Sign-Up{
+    background-color: blue;
+    color: white;
+   width: 90px;
+   height: 30px;
+   border-radius: 20px;
+   padding-left: 20px;
+   font-size: 1.2rem;
+   padding-top: 5px;
+   margin-left: 2rem;
+border: 2px widge rgb(255, 255, 255);
+}
+.main>h3{
+    font-size: 2.5rem;
+    margin-left: 7rem;
+    color: navy;
+  
+}
+.main>p{
+    font-size: 1.2rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+   color: #1341B9;
+}
+.flex{
+    display: flex;
+}
+.flex>div{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 5rem;
+   
+}
+.text{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+ font-weight: bold;
+  color: #1341B9;
+  margin-right: 1rem;
+
+}
+.play{
+    margin-left: 2rem;
+    margin-top: -0.5rem;
+    margin-right: 1rem;
+}
+.line{
+    margin-left: 1rem;
+    margin-top: -0.3rem;
+}
+.box{
+    background-color: #1341B9;
+    width: 8rem;
+    height: 30px;
+    padding-left: 15px;
+    margin-left: 3rem;
+    padding-top: 7px;
+    color: white;
+    font-size: 1.3rem;
+border-radius: 5px;
+}
+.box>img{
+    width: 1rem;
+    margin-top: -0.5rem;
+    margin-left: 3px;
+}
+.section-2{
+    height: 90vh;
+}
+.top>h2{
+  color: navy;
+    padding-top: 1.8rem;
+    font-size: 2.5rem;
+   text-align: center;
+   margin: 2rem;
+
+}
+.top>p{
+    font-size: 1.2rem;
+    text-align: center;
+    color:#192F69;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px; 
+}
+
+.grid > div {
+    background-color: rgb(252, 249, 252);
+}
+.left{
+    display: grid;
+    align-items: center;
+   justify-content: center;
+
+}
+.left>h3{
+    font-size: 1.5rem;
+   color: navy;
+}
+.left>p{
+    font-size: 1rem;
+    margin-top: -0.2rem;
+    color: #192F69;
+}
+.middle{
+    display: grid;
+   align-items: center;
+   justify-content: center;
+}
+.middle>h3{
+    color: navy;
+    font-size: 1.5rem;
+    margin-top: -2rem;
+}
+.middle>p{
+    font-size: 1rem;
+    margin-top: -0.2rem;
+    color: #192F69;
+}
+.right{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.right>h3{
+    color: navy;
+font-size: 1.5rem;
+margin-top: 1rem;
+}
+.right>p{
+    font-size: 1rem;
+    margin-top: -0.2rem;
+    color: #192F69;
+}
+
+.section-3{
+    
+    height: 90vh;
+    background-image: url(" Frame 4578.svg");
+    background-repeat: no-repeat;
+}
+.Steps-Through{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    text-align: center;
+   color:#1341B9;
+
+}
+.Steps-Through>h2{
+    display: flex;
+    font-size: 2rem;
+    color: navy;
+    margin-left:45rem;
+}
+.Steps-Through>p{
+    display: flex;
+    font-size: 1.2rem;
+    margin-left:45rem;
+    margin-top: -0.5rem;
+}
+.Steps-Through>div{
+    display: flex;
+    margin-left: 12rem;
+}
+.step-1{
+    display: flex;
+    flex-direction: column;
+   
+}
+.step-1>h3{
+    font-size: 1.5rem;
+    color:  rgb(7, 7, 170);
+}
+.step-1>p{
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: 2rem;
+}
+.step-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.step-2>h3{
+    font-size: 1.5rem;
+    color:  rgb(7, 7, 170);
+    margin-left: 5rem;
+}
+.step-2>p{
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: 5rem;
+}
+.step-3{
+    display: flex;
+    flex-direction: column;
+}
+.step-3>h3{
+    font-size: 1.5rem;
+    color: rgb(7, 7, 170);
+    margin-right: 7rem;
+}
+.step-3>p{
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: 2rem;
+}
+
+.section-4{
+    height: 90vh;
+}
+.section-4>h3{
+    font-size: 3rem;
+    text-align: center;
+    color: navy;
+}
+.section-4>p{
+    font-size: 1.3rem;
+    text-align: center;
+    color:#192F69;
+}
+.About{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 20px;
+ 
+}
+.About>div{
+    background-color:#F9FBFD;
+    padding: 40px;
+    display: grid;
+
+}
+.cloud{
+    display: flex;
+    flex-direction: column;
+  margin-left: 15rem;
+    margin-top: -12rem;
+    color: navy;
+  }
+  .Coin{
+      display: flex;
+      flex-direction: column;
+    margin-left: 15rem;
+      margin-top: -12rem;
+      color: navy;
+  }
+  .Card{
+    display: flex;
+    flex-direction: column;
+  margin-left: 15rem;
+    margin-top: -12rem;
+ color: navy;
+}
+.Scan{
+    display: flex;
+    flex-direction: column;
+  margin-left: 15rem;
+    margin-top: -12rem;
+    
+    color: navy;
+}
+
+.section-6{
+    height: 90vh;
+    padding-top: 10rem;
+}
+.plant{
+    margin-top: 0rem;
+}
+.Support{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50rem;
+  margin-top: -20rem;
+
+  
+   color:#1341B9
+}
+.Support>h1{
+    margin-bottom: -0.3rem;
+    font-size: 3rem;
+    color: navy
+}
+.Support>h5{
+    font-size: 1.6rem;
+}
+
+.button{
+    background-color: #1341B9;
+    color: white;
+    width: 7.5rem;
+    height: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.7rem;
+    border-radius: 5px;
+}
+.section-7{
+    height: 70vh;
+    background-color: navy;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer>div{
+    display: grid;
+    background-color: navy;
+    text-align: center;
+    padding-top: 1rem;
+  color: white;
+}
+.value>div{
+    padding-top: 1rem;
+    color: white;
+}
+.value>h4{
+font-size: 1.3rem;
+color: white;
+}
+.value>h5{
+    width: 10rem;
+    color:#1341B9;
+    font-size: 1.3rem;
+    height: 30px;
+   justify-self: center;
+    background-color:  white;
+}
+.baseline{
+    color: white;
+    display: flex;
+    padding-top: 8rem;
+    margin-left: 8rem;
+}
+.baseline>p{
+    padding-left: 2rem;
+}
+.social{
+    margin: 2rem;
+    display: flex;
+list-style: none
+
+}
+.social>li{
+    margin-left: 4rem;
+}
